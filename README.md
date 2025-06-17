@@ -10,7 +10,7 @@
 
 ## Nome do grupo
 
-## �‍🎓 Integrantes: 
+## Integrantes: 
 - <a href="https://www.linkedin.com/in/yan-cotta/">Yan Cotta</a>
 
 
@@ -272,7 +272,7 @@ Após a preparação dos dados, implementamos e avaliamos 5 algoritmos de classi
 
 ---
 
-## � Como executar o código
+## Como executar o código
 
 Para executar o notebook e replicar os resultados, siga os passos abaixo.
 
@@ -319,10 +319,6 @@ jupyter lab grain_classification.ipynb
 ```
 
 Após abrir o notebook, você pode executar todas as células para ver o processo de análise, treinamento e avaliação dos modelos seguindo a metodologia CRISP-DM.
-
-## 📋 Licença
-
-<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
 
 ---
 
@@ -417,3 +413,6 @@ Desenvolvido com sucesso para otimizar a classificação de grãos de trigo atra
 
 **Status:** ✅ Completo e pronto para implementação em cooperativas agrícolas brasileiras.
 
+## 📋 Licença
+
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
