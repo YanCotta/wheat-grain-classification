@@ -1,8 +1,44 @@
+# FIAP - Faculdade de Informática e Administração Paulista
+
+<p align="center">
+<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
+</p>
+
+<br>
+
 # 🌾 Classificação de Grãos de Trigo com Machine Learning
 
-## 📖 Descrição do Projeto
+## Nome do grupo
 
-Este projeto universitário aplica a metodologia **CRISP-DM** para desenvolver e avaliar um modelo de Machine Learning capaz de classificar três variedades de grãos de t## 📊 Resultados Finais Detalhados
+## �‍🎓 Integrantes: 
+- <a href="https://www.linkedin.com/in/yan-cotta/">Yan Cotta</a>
+
+
+## 👩‍🏫 Professores:
+### Tutor(a) 
+- <a href="https://www.linkedin.com/in/lucas-gomes-moreira-15a8452a/">Lucas Moreira</a>
+### Coordenador(a)
+- <a href="https://www.linkedin.com/in/andregodoichiovato/">André Godoi</a>
+
+## 📜 Descrição
+
+Este projeto universitário aplica a metodologia **CRISP-DM** para desenvolver e avaliar um modelo de Machine Learning capaz de classificar três variedades de grãos de trigo (Kama, Rosa e Canadian) com base em suas características físicas. O objetivo é automatizar o processo de classificação, que em pequenas cooperativas agrícolas é frequentemente manual, demorado e sujeito a erros.
+
+A solução proposta visa aumentar a eficiência e a precisão da classificação de grãos, fornecendo uma ferramenta robusta baseada em dados.
+
+## 📁 Estrutura de pastas
+
+Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
+
+- <b>assets</b>: aqui estão os arquivos relacionados a elementos não-estruturados deste repositório, como imagens.
+
+- <b>grain_classification.ipynb</b>: Jupyter Notebook principal contendo toda a análise, modelagem e avaliação do projeto seguindo a metodologia CRISP-DM.
+
+- <b>requirements.txt</b>: arquivo contendo todas as dependências e bibliotecas necessárias para executar o projeto.
+
+- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
+
+## 📊 Resultados Finais Detalhados
 
 ### 🏆 Performance Alcançada
 
@@ -23,13 +59,13 @@ O projeto superou as expectativas iniciais, alcançando resultados excepcionais:
 
 O projeto foi concluído com todos os entregáveis prometidos:
 
-✅ **Modelo de classificação otimizado:** Regressão Logística com 90.48% de acurácia
-✅ **Comparação detalhada:** Análise completa de 5 algoritmos diferentes
-✅ **Características importantes:** Análise dos coeficientes e importância das features
-✅ **Interpretação clara:** Matrizes de confusão e análise de erros detalhada
-✅ **Recomendações práticas:** Guia completo para implementação em cooperativasanadian) com base em suas características físicas. O objetivo é automatizar o processo de classificação, que em pequenas cooperativas agrícolas é frequentemente manual, demorado e sujeito a erros.
+✅ **Modelo de classificação otimizado:** Regressão Logística com 90.48% de acurácia  
+✅ **Comparação detalhada:** Análise completa de 5 algoritmos diferentes  
+✅ **Características importantes:** Análise dos coeficientes e importância das features  
+✅ **Interpretação clara:** Matrizes de confusão e análise de erros detalhada  
+✅ **Recomendações práticas:** Guia completo para implementação em cooperativas  
 
-A solução proposta visa aumentar a eficiência e a precisão da classificação de grãos, fornecendo uma ferramenta robusta baseada em dados.
+---
 
 ## 🎯 Principais Descobertas e Resultados
 
@@ -236,9 +272,15 @@ Após a preparação dos dados, implementamos e avaliamos 5 algoritmos de classi
 
 ---
 
-## 🚀 Como Executar o Projeto
+## � Como executar o código
 
 Para executar o notebook e replicar os resultados, siga os passos abaixo.
+
+### Pré-requisitos
+
+- Python 3.8 ou superior
+- Jupyter Lab ou Jupyter Notebook
+- Bibliotecas listadas no requirements.txt
 
 ### 1. Clone o Repositório
 
@@ -256,16 +298,18 @@ source venv/bin/activate  # No Windows, use: venv\Scripts\activate
 
 ### 3. Instale as Dependências
 
-As bibliotecas necessárias estão listadas no arquivo requirements.txt.
+As bibliotecas necessárias estão listadas no arquivo requirements.txt:
+
+- **pandas>=1.5.0:** Manipulação e análise de dados
+- **numpy>=1.21.0:** Computação numérica
+- **matplotlib>=3.5.0:** Visualização de dados
+- **seaborn>=0.11.0:** Visualização estatística
+- **scikit-learn>=1.1.0:** Machine learning e pré-processamento
+- **jupyterlab>=3.4.0:** Ambiente de desenvolvimento interativo
+- **ipykernel>=6.15.0:** Kernel do Jupyter
 
 ```bash
 pip install -r requirements.txt
-```
-
-**Nota:** Se o arquivo requirements.txt não existir, você pode instalar as bibliotecas manualmente:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn jupyterlab
 ```
 
 ### 4. Execute o Jupyter Notebook
@@ -274,30 +318,13 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyterlab
 jupyter lab grain_classification.ipynb
 ```
 
-Após abrir o notebook, você pode executar todas as células para ver o processo de análise, treinamento e avaliação dos modelos.
+Após abrir o notebook, você pode executar todas as células para ver o processo de análise, treinamento e avaliação dos modelos seguindo a metodologia CRISP-DM.
+
+## 📋 Licença
+
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
 
 ---
-
-## � Próximos Passos e Expectativas
-
-### 🎯 Modelagem (Próxima Fase)
-
-Com os dados preparados de forma otimizada, esperamos excelentes resultados na fase de modelagem:
-
-- **Alta performance esperada:** Dataset com separabilidade excepcional sugere acurácia > 95%
-- **Algoritmos recomendados:** SVM, KNN, Random Forest e Gradient Boosting
-- **Características importantes:** Combinação de medidas geométricas será decisiva
-- **Validação robusta:** Conjunto de teste estratificado garantirá avaliação confiável
-
-### 📊 Entregáveis Finais
-
-O projeto culminará na entrega de:
-
-- Modelo de classificação otimizado com alta acurácia
-- Comparação detalhada de performance entre algoritmos
-- Identificação das características mais importantes para classificação
-- Interpretação clara dos resultados e aplicabilidade prática
-- Recomendações para implementação em cooperativas agrícolas
 
 ## 🎯 Conclusões e Recomendações Finais
 
@@ -343,7 +370,7 @@ O projeto foi **concluído com sucesso total**, demonstrando a viabilidade de au
 - **Variedade Rosa:** Mais distintiva (100% de precisão)
 - **Canadian vs Kama:** Principais desafios de classificação
 - **Características geométricas:** Suficientes para identificação eficaz
-- **Dados lineamente separáveis:** Confirmam adequação de modelos simples
+- **Dados linearmente separáveis:** Confirmam adequação de modelos simples
 
 ### 🚀 Implementação Sugerida
 
@@ -384,20 +411,9 @@ O projeto foi **concluído com sucesso total**, demonstrando a viabilidade de au
 
 ---
 
-## 📝 Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
-
-## 👥 Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
-
----
-
 ### 💚 Projeto Concluído
 
 Desenvolvido com sucesso para otimizar a classificação de grãos de trigo através de Machine Learning.
 
 **Status:** ✅ Completo e pronto para implementação em cooperativas agrícolas brasileiras.
+
